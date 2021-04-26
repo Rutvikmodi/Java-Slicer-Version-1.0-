@@ -48,9 +48,10 @@ Method 2: Without using GUI (Directly from the terminal)
 
 If there is no python support then also you can directly run the slicer from the terminal
 
-  Prequisite:
-      -- 1. Text File : named "inputt1" - This file shoud have 2 things written in it, first one the line number and second the variable name
-      -- 2. Text File : named "inputt2" - This file shoud have the input of the Java code which is to be tested
+Prequisite:
+
+        -- 1. Text File : named "inputt1" - This file shoud have 2 things written in it, first one the line number and second the variable nam
+        -- 2. Text File : named "inputt2" - This file shoud have the input of the Java code which is to be tested
       
 Following images show both the files for the code mentioned in the above example (in the example of GUI method):
 
