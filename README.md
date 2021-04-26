@@ -63,8 +63,7 @@ After successfully compiling, run the slicer in the terminal with the command ".
 
 Following image shows the result acheived in the terminal for the above inputs:
 
-![UI_7](https://user-images.githubusercontent.com/34269503/116078795-aa837c80-a6b4-11eb-95be-8644e7db1f2e.png)
-
+![UI_7](https://user-images.githubusercontent.com/34269503/116079857-f5ea5a80-a6b5-11eb-8293-6ad2f06609f8.png)
 
 # Following functionalities for slicing of Java Code is achieved in this 1.0 version
 
