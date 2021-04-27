@@ -1,5 +1,5 @@
 # Java-Slicer-Version-1.0-
-Download the slicer file (rutvik.cpp), any of the source file and the GUI code.
+Download the slicer file (slicer.cpp), any of the source file and the GUI code.
 
 Pre-requisites:
     
