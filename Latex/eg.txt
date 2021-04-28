@@ -1,0 +1,8 @@
+Function definition:
+int sum(int x,int y)
+{
+    int k=x+y;
+    return k;
+}
+Function call:
+int z=sum(a,b);

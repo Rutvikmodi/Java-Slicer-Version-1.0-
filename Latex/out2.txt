@@ -1,0 +1,21 @@
+{|*|10: long vari = 5;	    
+} {11:  try
+} {13:  if(Thread.currentThread().
+        getId()%10<5)
+} {17:	y = y-1;
+} {19:	else
+} {21:	ans = vari - 
+        Thread.currentThread().getId()%10; 
+} {22:	y = y +1;
+} {25:	if(ans<0)
+} {27:	x = ans+y;
+} {30:	else
+} {32:	y = ans + x;
+} {35:	if(x + y <0)
+} {37:	x = x + y;
+} {38:	x = -x;
+} {41:	else
+} {43:	x = x + y;
+} {5:   public void run()
+} {8:	long y=0;
+}

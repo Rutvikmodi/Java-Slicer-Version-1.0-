@@ -1,0 +1,40 @@
+{|*|12:		return x;
+} {14:	public static void main(String[] args)
+} {16:		Scanner sc=new Scanner(System.in);
+} {28:		z=sc.nextInt();
+} {29:		n=sc.nextInt();
+} {30:		y=z;
+} {31:		x=y+z;
+} {33_0:		for(i=0;i<n;i=i+1)
+} {33_1:		for(i=0;i<n;i=i+1)
+} {33_2:		for(i=0;i<n;i=i+1)
+} {33_3:		for(i=0;i<n;i=i+1)
+} {35_0:y = &y_out
+} {35_0:			x = fun(x,y);
+} {35_0:y_in = y
+} {35_0:x_in = x
+} {35_1:x_in = x
+} {35_1:y = &y_out
+} {35_1:			x = fun(x,y);
+} {35_1:y_in = y
+} {35_2:y = &y_out
+} {35_2:			x = fun(x,y);
+} {35_2:y_in = y
+} {35_2:x_in = x
+} {35_3:y = &y_out
+} {35_3:y_in = y
+} {35_3:			x = fun(x,y);
+} {35_3:x_in = x
+} {37_0:			x = x + 1;
+} {37_1:			x = x + 1;
+} {37_2:			x = x + 1;
+} {37_3:			x = x + 1;
+} {40:		if(x > 0)
+} {42:			y = y + 1;
+} {5:x = x_in
+} {5:y_out = *y
+} {5:	public static int fun(int x, int y)
+} {5:y = y_in
+} {8:		x = x + 1;
+} {9:		y = x + y;
+}

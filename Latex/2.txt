@@ -1,0 +1,81 @@
+1)import java.io.*;
+2)import java.util.*;
+3)class MultithreadingDemo extends Thread 
+4){
+5)public void run()
+6){
+7)long x=0;
+8)long y=0;
+9)long ans=0;
+10)long vari = 5;	    
+11)try
+12){
+13)if(Thread.currentThread().
+   getId()%10<5)
+14){
+15)ans = vari +
+   Thread.currentThread().getId()%10;
+16)	x = x+1;
+17)	y = y-1;
+18)	}
+19)	else
+20)	{
+21)	ans = vari - 
+    Thread.currentThread().getId()%10; 
+22)	y = y +1;
+23)	x = x-1;	
+24)	}
+25)	if(ans<0)
+26)	{
+27)	x = ans+y;
+28)	System.out.println("Greater threads 
+    are executing more");
+29)	}
+30)	else
+31)	{
+32)	y = ans + x;
+33)	System.out.println("Smaller threads
+    are executing more");
+34)	}
+35)	if(x + y <0)
+36)	{
+37) x = x + y;
+38) x = -x;
+39) System.out.println("Now x is positive");
+40) }
+41)	else
+42) {
+43) x = x + y;
+44) System.out.println("Now x is negative");
+45) }
+46)}
+47)catch (Exception e) 
+48){
+49) // Throwing an exception
+50)System.out.println("Exception is caught");
+51)}
+52)}
+53)}
+54) 
+55)// Main Class
+56)public class source 
+57){
+58)public static void main(String[] args)
+59){
+60)System.out.println("Input number 
+    of threads");
+61)int n;
+62)Scanner sc = new Scanner(System.in);
+63)n=sc.nextInt();	
+64)for (int i = 0; i < n; i++) 
+65){
+66)MultithreadingDemo object =
+   new MultithreadingDemo();
+67)object.start();
+68)}
+69)for(int i=0;i<4;i++)
+70){
+71)	System.out.println("Hiii");
+72)	}
+73)}
+74)}
