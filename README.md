@@ -86,20 +86,6 @@ Following image shows the result acheived in the terminal for the above inputs:
     -- String operations
     -- Assignment operations
     
-    
+# Acknowledgement
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
+We are thankful and obliged to our university DA-IICT and our Prof. JayPrakash Lalchandani Sir for giving us this oppurtunity of Btech Project and to dive in one of the most intresting topics under the field of Computer Science, so that we can learn some new concepts and try to implement them.       
